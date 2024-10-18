@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
     override fun onPause() {
         super.onPause()
         // Сохранение состояния перед выходом
-        appState.saveLastPostId("some_post_id") // Сохраните актуальный пост
+        appState.saveLastPostId("some_post_id") 
     }
 
 }
